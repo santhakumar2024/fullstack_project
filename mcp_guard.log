@@ -1,0 +1,6 @@
+2026-11-20 23:02:53,764 [INFO] mcp_guard: Broker started on http://127.0.0.1:8765
+2026-11-20 23:02:54,175 [INFO] mcp_guard: System tray: using tkinter fallback (no tray icon)
+2026-11-20 23:02:54,176 [INFO] mcp_guard: Starting UI main loop
+2026-11-20 23:50:30,319 [INFO] mcp_guard: Broker started on http://127.0.0.1:8765
+2026-11-20 23:50:30,469 [INFO] mcp_guard: System tray: using tkinter fallback (no tray icon)
+2026-11-20 23:50:30,470 [INFO] mcp_guard: Starting UI main loop

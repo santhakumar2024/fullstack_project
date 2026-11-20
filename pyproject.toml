@@ -11,10 +11,19 @@ dependencies = [
     "aiohttp>=3.9,<4",
 ]
 
+[project.optional-dependencies]
+tray = ["pystray>=0.19", "pillow>=10"]
+
 [project.scripts]
+# Original versions
 mcp-guard = "mcp_guard.app:main"
 mcp-guard-wrapper = "mcp_guard.stdio_wrapper:main"
 mcp-guard-http = "mcp_guard.http_proxy:main"
+
+# Enhanced versions (recommended)
+mcp-guard-enhanced = "mcp_guard.app_enhanced:main"
+mcp-guard-wrapper-enhanced = "mcp_guard.stdio_wrapper_enhanced:main"
+mcp-guard-http-enhanced = "mcp_guard.http_proxy_enhanced:main"
 
 [tool.setuptools.packages.find]
 include = ["mcp_guard*"]

@@ -1,0 +1,88 @@
+2026-11-20 22:07:42,963 [INFO] mcp_wrapper: Checking broker health at http://127.0.0.1:8765...
+2026-11-20 22:07:43,142 [INFO] mcp_wrapper: Starting MCP server: C:\Python312\python.exe ['scripts/demo_mcp_server.py']
+2026-11-20 22:07:43,187 [ERROR] mcp_wrapper: Error writing to process: '_io.BufferedWriter' object has no attribute 'buffer'
+Traceback (most recent call last):
+  File "E:\company internal projects\fullstack_project\mcp_guard\stdio_wrapper_enhanced.py", line 178, in _write_to_process
+    self._process.stdin.buffer.write(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.BufferedWriter' object has no attribute 'buffer'
+2026-11-20 22:07:43,203 [ERROR] mcp_wrapper: Error in outgoing relay: '_io.BufferedWriter' object has no attribute 'buffer'
+Traceback (most recent call last):
+  File "E:\company internal projects\fullstack_project\mcp_guard\stdio_wrapper_enhanced.py", line 131, in relay_outgoing
+    self._write_to_process(raw_line)
+  File "E:\company internal projects\fullstack_project\mcp_guard\stdio_wrapper_enhanced.py", line 178, in _write_to_process
+    self._process.stdin.buffer.write(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.BufferedWriter' object has no attribute 'buffer'
+2026-11-20 22:13:15,164 [INFO] mcp_wrapper: Checking broker health at http://127.0.0.1:8765...
+2026-11-20 22:13:15,227 [INFO] mcp_wrapper: Starting MCP server: C:\Python312\python.exe ['scripts/demo_mcp_server.py']
+2026-11-20 22:13:15,239 [ERROR] mcp_wrapper: Error writing to process: '_io.BufferedWriter' object has no attribute 'buffer'
+Traceback (most recent call last):
+  File "E:\company internal projects\fullstack_project\mcp_guard\stdio_wrapper_enhanced.py", line 178, in _write_to_process
+    self._process.stdin.buffer.write(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.BufferedWriter' object has no attribute 'buffer'
+2026-11-20 22:13:15,244 [ERROR] mcp_wrapper: Error in outgoing relay: '_io.BufferedWriter' object has no attribute 'buffer'
+Traceback (most recent call last):
+  File "E:\company internal projects\fullstack_project\mcp_guard\stdio_wrapper_enhanced.py", line 131, in relay_outgoing
+    self._write_to_process(raw_line)
+  File "E:\company internal projects\fullstack_project\mcp_guard\stdio_wrapper_enhanced.py", line 178, in _write_to_process
+    self._process.stdin.buffer.write(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.BufferedWriter' object has no attribute 'buffer'
+2026-11-20 22:13:29,226 [INFO] mcp_wrapper: MCP server exited with code 143
+2026-11-20 22:14:10,029 [INFO] mcp_wrapper: Checking broker health at http://127.0.0.1:8765...
+2026-11-20 22:14:10,089 [INFO] mcp_wrapper: Starting MCP server: C:\Python312\python.exe ['scripts/demo_mcp_server.py']
+2026-11-20 22:14:10,102 [ERROR] mcp_wrapper: Error writing to process: '_io.BufferedWriter' object has no attribute 'buffer'
+Traceback (most recent call last):
+  File "E:\company internal projects\fullstack_project\mcp_guard\stdio_wrapper_enhanced.py", line 178, in _write_to_process
+    self._process.stdin.buffer.write(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.BufferedWriter' object has no attribute 'buffer'
+2026-11-20 22:14:10,104 [ERROR] mcp_wrapper: Error in outgoing relay: '_io.BufferedWriter' object has no attribute 'buffer'
+Traceback (most recent call last):
+  File "E:\company internal projects\fullstack_project\mcp_guard\stdio_wrapper_enhanced.py", line 131, in relay_outgoing
+    self._write_to_process(raw_line)
+  File "E:\company internal projects\fullstack_project\mcp_guard\stdio_wrapper_enhanced.py", line 178, in _write_to_process
+    self._process.stdin.buffer.write(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.BufferedWriter' object has no attribute 'buffer'
+2026-11-20 22:14:24,028 [INFO] mcp_wrapper: MCP server exited with code 143
+2026-11-20 22:16:36,549 [INFO] mcp_wrapper: Checking broker health at http://127.0.0.1:8765...
+2026-11-20 22:16:36,617 [INFO] mcp_wrapper: Starting MCP server: C:\Python312\python.exe ['scripts/demo_mcp_server.py']
+2026-11-20 22:16:37,316 [ERROR] mcp_wrapper: Error writing to process: '_io.BufferedWriter' object has no attribute 'buffer'
+Traceback (most recent call last):
+  File "E:\company internal projects\fullstack_project\mcp_guard\stdio_wrapper_enhanced.py", line 178, in _write_to_process
+    self._process.stdin.buffer.write(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.BufferedWriter' object has no attribute 'buffer'
+2026-11-20 22:16:37,317 [ERROR] mcp_wrapper: Error in outgoing relay: '_io.BufferedWriter' object has no attribute 'buffer'
+Traceback (most recent call last):
+  File "E:\company internal projects\fullstack_project\mcp_guard\stdio_wrapper_enhanced.py", line 131, in relay_outgoing
+    self._write_to_process(raw_line)
+  File "E:\company internal projects\fullstack_project\mcp_guard\stdio_wrapper_enhanced.py", line 178, in _write_to_process
+    self._process.stdin.buffer.write(data)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_io.BufferedWriter' object has no attribute 'buffer'
+2026-11-20 22:16:45,641 [INFO] mcp_wrapper: MCP server exited with code 143
+2026-11-20 22:18:06,360 [INFO] mcp_wrapper: Checking broker health at http://127.0.0.1:8765...
+2026-11-20 22:18:06,427 [INFO] mcp_wrapper: Starting MCP server: C:\Python312\python.exe ['scripts/demo_mcp_server.py']
+2026-11-20 22:18:07,123 [INFO] mcp_wrapper: Tool call intercepted: demo_search
+2026-11-20 22:19:21,358 [INFO] mcp_wrapper: Checking broker health at http://127.0.0.1:8765...
+2026-11-20 22:19:21,431 [INFO] mcp_wrapper: Starting MCP server: C:\Python312\python.exe ['scripts/demo_mcp_server.py']
+2026-11-20 22:19:22,126 [INFO] mcp_wrapper: Tool call intercepted: demo_search
+2026-11-20 22:21:35,617 [INFO] mcp_wrapper: Checking broker health at http://127.0.0.1:8765...
+2026-11-20 22:21:35,701 [INFO] mcp_wrapper: Starting MCP server: C:\Python312\python.exe ['scripts/demo_mcp_server.py']
+2026-11-20 22:21:36,187 [INFO] mcp_wrapper: Tool call intercepted: demo_search
+2026-11-20 22:23:01,027 [INFO] mcp_wrapper: Checking broker health at http://127.0.0.1:8765...
+2026-11-20 22:23:01,285 [INFO] mcp_wrapper: Starting MCP server: C:\Python312\python.exe ['scripts/demo_mcp_server.py']
+2026-11-20 22:23:01,505 [INFO] mcp_wrapper: Tool call intercepted: demo_search
+2026-11-20 22:25:53,909 [INFO] mcp_wrapper: Checking broker health at http://127.0.0.1:8765...
+2026-11-20 22:25:54,105 [INFO] mcp_wrapper: Starting MCP server: C:\Python312\python.exe ['scripts/demo_mcp_server.py']
+2026-11-20 22:25:54,497 [INFO] mcp_wrapper: Tool call intercepted: demo_search
+2026-11-20 22:31:36,939 [INFO] mcp_wrapper: Checking broker health at http://127.0.0.1:8766...
+2026-11-20 22:31:37,149 [INFO] mcp_wrapper: Starting MCP server: C:\Python312\python.exe ['scripts/demo_mcp_server.py']
+2026-11-20 22:31:37,423 [INFO] mcp_wrapper: Tool call intercepted: demo_search
+2026-11-20 23:12:45,954 [INFO] mcp_wrapper: Checking broker health at http://127.0.0.1:8765...
+2026-11-20 23:12:46,061 [INFO] mcp_wrapper: Starting MCP server: C:\Python312\python.exe ['scripts/demo_mcp_server.py']
+2026-11-20 23:12:46,417 [INFO] mcp_wrapper: Tool call intercepted: demo_search
