@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-approval-guard"
+version = "1.0.0"
+description = "Human-in-the-loop approval gate for MCP tool requests"
+requires-python = ">=3.10"
+dependencies = [
+    "aiohttp>=3.9,<4",
+]
+
+[project.scripts]
+mcp-guard = "mcp_guard.app:main"
+mcp-guard-wrapper = "mcp_guard.stdio_wrapper:main"
+mcp-guard-http = "mcp_guard.http_proxy:main"
+
+[tool.setuptools.packages.find]
+include = ["mcp_guard*"]
